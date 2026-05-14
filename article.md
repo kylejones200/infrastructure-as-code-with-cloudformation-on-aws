@@ -48,12 +48,12 @@ An AWS CloudFormation template is a JSON or YAML formatted text file that descri
 
 The CloudFormation template is composed of several key components that make it possible to define and manage infrastructure resources in a scalable and repeatable way. The components of a CloudFormation template include:
 
-1.  [**Resources **--- This section describes the AWS resources that the CloudFormation stack should create and manage, such as EC2 instances, RDS databases, and S3 buckets.]
-2.  [**Parameters** --- This section allows users to specify inputs to the CloudFormation stack at runtime, such as the number of instances to launch, or the name of an S3 bucket.]
-3.  [**Outputs** --- This section defines the values that should be output by the CloudFormation stack once it has completed the deployment, such as the URL of a load balancer or the name of a database.]
-4.  [**Mappings** --- This section allows users to define lookup tables that map keys to corresponding values, such as AMI IDs for different regions.]
-5.  [**Conditions** --- This section defines conditions that determine whether resources should be created or updated, based on the values of input parameters or other variables.]
-6.  [**Transform** --- This section allows users to specify the transformation functions that should be applied to the CloudFormation template before it is processed. For example, users can use this section to define macros that automate the creation of complex resource configurations.]
+1.  [Resources --- This section describes the AWS resources that the CloudFormation stack should create and manage, such as EC2 instances, RDS databases, and S3 buckets.]
+2.  [Parameters --- This section allows users to specify inputs to the CloudFormation stack at runtime, such as the number of instances to launch, or the name of an S3 bucket.]
+3.  [Outputs --- This section defines the values that should be output by the CloudFormation stack once it has completed the deployment, such as the URL of a load balancer or the name of a database.]
+4.  [Mappings --- This section allows users to define lookup tables that map keys to corresponding values, such as AMI IDs for different regions.]
+5.  [Conditions --- This section defines conditions that determine whether resources should be created or updated, based on the values of input parameters or other variables.]
+6.  [Transform --- This section allows users to specify the transformation functions that should be applied to the CloudFormation template before it is processed. For example, users can use this section to define macros that automate the creation of complex resource configurations.]
 
 By using these components, users can define complex, multi-tier applications that can be deployed and managed in a consistent, repeatable way across multiple environments. Templates can be versioned, shared, and reused across teams, making it easier to collaborate on infrastructure management and maintenance. The declarative syntax also helps reduce the likelihood of human error, since the desired state of the resources is clearly defined, making it easier to spot configuration drift or inconsistencies.
 
